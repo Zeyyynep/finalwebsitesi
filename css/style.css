@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #3D2B1F;
+}
+
+/* header */
+header {
+    background-color: #ffba08 ;
+    padding: 20px;
+    
+
+}
+
+.navbar ul {
+
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    
+
+}
+
+.navbar ul li a {
+
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px;
+    text-decoration: none;
+    transition: ease-out 0.3s;
+
+}
+.navbar ul li a:hover {
+   
+    color: brown;
+}
+
+/* main */
+.menu {
+    background-color: #f1a208;
+
+
+}
+
+.resim2 {
+
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding: 40px;
+    padding-left: 25%;
+}
+
+.p {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: justify;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-80%, -80%);
+
+
+}
+
+.p2 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: justify;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-10%, -10%);
+    
+
+}
+
+.flex-container {
+    display: flex;
+}
+
+.icerikler {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Ana İçerik */
+#mainContent {
+    flex: 6;
+    padding: 10px;
+}
+
+/* Yan İçerik */
+#sideContent {
+    flex: 6;
+    padding: 10px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+
+}
+
+.img {
+    width: 100%;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+.img2 {
+    width: 85%;
+    vertical-align: middle;
+    border-radius: 15px;
+
+}
+
+/* main2 */
+.centered {
+
+    text-align: center;
+    line-height: 2.5;
+    
+}
+.yaziboyutu{
+    font-size: 20px;
+}
+.h3 {
+    background-color: #fcb900;
+}
+.baslik1{
+    font-size: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+
+.resim {
+    width: 85%;
+}
+
+/* Ana İçerik */
+
+.main2 {
+    flex: 4;
+    padding: 10px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+
+
+.btn {
+    background-color:#B22222;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* main3 */
+.flex-container1 {
+    display: flex;
+    background-color: #f1f1f1;
+
+}
+
+.card1 {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-top: 20px;
+
+
+}
+
+.main3 {
+    flex: 6;
+    padding: 10px;
+    line-height: 2;
+
+}
+
+.resim3 {
+    width: 85%;
+}
+
+.baslık3 {
+    font-size: 25px;
+}
+
+.h1 {
+    font-size: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Teko', sans-serif;
+
+
+}
+.yazıboyutu2{
+    font-size: 17px;
+}
+/* footer */
+footer {
+    background: #f4bd01;
+    padding: 20px;
+    margin-top: 20px;
+   
+}
+footer section {
+    flex: 2;
+    padding: 20px;
+}
+
+.footerList li {
+    padding: 0 0 20px;
+    list-style: none;
+}
+
+.footerList li a {
+    color: #333;
+    
+
+    
+}.footerp{
+    font-size: 17px;
+    line-height: 2;
+   
+}
+.simgeler{
+    color: black;
+
+
+}
